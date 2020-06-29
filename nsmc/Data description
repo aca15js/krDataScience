@@ -1,0 +1,9 @@
+Each file is consisted of three columns: id, document, label
+id: The review id, provieded by Naver
+document: The actual review
+label: The sentiment class of the review. (0: negative, 1: positive)
+Columns are delimited with tabs (i.e., .tsv format; but the file extension is .txt for easy access for novices)
+200K reviews in total
+ratings.txt: All 200K reviews
+ratings_test.txt: 50K reviews held out for testing
+ratings_train.txt: 150K reviews for training
